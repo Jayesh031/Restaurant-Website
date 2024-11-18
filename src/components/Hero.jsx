@@ -50,7 +50,7 @@ export default function Hero(){
                             <h1 className="text-blue-500 text-2xl font-bold">200+</h1>
                             <p className="text-sm font-semibold">Daily Customers </p>
                         </div>
-                        <img src={fruit} alt="" className="absolute w-32 bottom-[4.5rem] left-[38rem]"/>
+                        <img src={fruit} alt="" className="absolute w-32 bottom-[3rem] left-[38rem]"/>
                     </div>
                 </div>
                 <img src={fruit2} alt="" className="absolute top-[460px] left-16 w-44 z-0" />
