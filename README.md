@@ -1,4 +1,4 @@
 # Restaurant-Website
- Reacr and Tailwind-CSS website for Restaurant.
+ React and Tailwind-CSS website for Restaurant.
 
  **Access LINK**: 
