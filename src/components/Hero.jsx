@@ -21,7 +21,7 @@ export default function Hero(){
                             <img src={as} alt="" className="w-28 h-10" />
                         </div>
                         <h1 className="font-bold text-6xl tracking-normal"> <span className="text-blue-500">Flavors</span> that Bring People Together!</h1>
-                        <p className="text-lg text-gray-600 my-3">Discover a World of culinary delights with us. Enjoy Fresh,Healthy, Delicious and wide selection of mouthwatering Dishes.</p>
+                        <p className="text-lg text-gray-600 my-3 z-100">Discover a World of culinary delights with us. Enjoy Fresh,Healthy, Delicious and wide selection of mouthwatering Dishes.</p>
                         <div className="flex gap-3">
                             <button className="bg-blue-500 px-3 py-2 rounded-lg hover:bg-blue-600 hover:scale-110 transition-all z-10
                             ">Order Now</button>
@@ -50,10 +50,10 @@ export default function Hero(){
                             <h1 className="text-blue-500 text-2xl font-bold">200+</h1>
                             <p className="text-sm font-semibold">Daily Customers </p>
                         </div>
-                        <img src={fruit} alt="" className="absolute w-32 bottom-[3rem] left-[38rem]"/>
+                        <img src={fruit} alt="" className="absolute w-32 bottom-[4.5rem] left-[38rem]"/>
                     </div>
                 </div>
-                <img src={fruit2} alt="" className="absolute top-[460px] left-16 w-44 z-0" />
+                <img src={fruit2} alt="" className="absolute top-[550px] left-16 w-44 -z-1" />
             </div>
         </>
     )
