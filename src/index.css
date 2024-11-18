@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(219 234 254 / var(--tw-bg-opacity, 1));
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.spin{
+    animation: spin 45s linear infinite;
+}
+
+@keyframes loop-scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.loop-scroll{
+    animation: loop-scroll 50s linear infinite;
+}
+
